@@ -1,10 +1,19 @@
 import React from "react";
+import logo from "../../assets/img/Logo.png";
+import { Link } from "react-router-dom";
 
 export const Service = ({ data }) => {
   return (
     <div>
       <nav>
         <ul>
+          <Link path="/">
+            {" "}
+            <li>
+              {" "}
+              <img src={logo} alt="logo" width="140" />
+            </li>
+          </Link>
           <li>
             <a href="#about">About</a>
           </li>

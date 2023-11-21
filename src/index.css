@@ -178,7 +178,7 @@ section.service .text a {
 
 /*---------SERVICE SECTION OVERRIDES------ */
 
-section.service.service-html figure {
+ section.service.service-html figure {
   background: var(--green);
 }
 
@@ -202,7 +202,7 @@ section.service.service-js figure {
 
 section.service.service-js .text h2 section.service.service-js .text a {
   color: var(--blue);
-}
+} 
 
 /*---------CONTACT SECTION------ */
 
@@ -263,4 +263,4 @@ section.contact a {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
   }
-}
+} 
